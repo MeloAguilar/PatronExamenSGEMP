@@ -22,7 +22,7 @@ namespace DAL.Conexion
             //
             this.server = "107-12\\SQLEXPRESS";
             
-            this.dataBase = "Coronavirus";
+            this.dataBase = "";
             
             //prueba2
             this.user = "prueba2";
