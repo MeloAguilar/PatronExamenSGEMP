@@ -72,13 +72,13 @@ namespace DAL.Conexion
         /// Este metodo cierra una conexión con la Base de datos
         /// </summary>
         /// <post>La conexion es cerrada</post>
-        /// <param name="connection">SqlConnection pr referencia. Conexion a cerrar
+        /// <param name="cnn">SqlConnection pr referencia. Conexion a cerrar
         /// </param>
-        public void closeConnection(ref SqlConnection connection)
+        public void closeConnection(ref SqlConnection cnn)
         {
             try
             {
-                connection.Close();
+                cnn.Close();
             }
             catch (SqlException)
             {
